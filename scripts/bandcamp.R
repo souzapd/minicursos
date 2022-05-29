@@ -15,7 +15,7 @@ library(lubridate)
 
 
 # ===================================================================== Leitura
-setwd('~/Desktop/r4adr/data') # Ajustar caso necessário
+setwd('../data') # Ajustar caso necessário
 
 vendas <- fread('1M-bandcamp-sales.csv')
 moedas <- fread('https://raw.githubusercontent.com/datasets/currency-codes/master/data/codes-all.csv')
